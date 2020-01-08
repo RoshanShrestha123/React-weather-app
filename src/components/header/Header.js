@@ -6,10 +6,15 @@ function Header(){
     let currentDate= new Date().getDay();
  
     return (
-        <div className="header">
+
+            <div className="header">
             <h3 className="location"> Kathmandu</h3>
             <h3 className="time">{days[currentDate]}</h3>
+            
         </div>
+        
+   
+        
         
     )
 }
