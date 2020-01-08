@@ -1,6 +1,22 @@
 .weather-wrapper{
    display: flex;
    flex-wrap: wrap;
+   flex-direction: column;
    align-content: center;
+   text-align: center;
+   padding: 20px;
+   margin-top: 40px;
 
+  
+
+}
+
+.temp{
+   font-weight: bolder;
+   font-size: 50px;
+
+}
+.desc{
+   font-style: italic;
+   font-weight: 200;
 }

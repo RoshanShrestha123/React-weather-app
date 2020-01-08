@@ -29,7 +29,7 @@ class Main extends Component{
             console.log(this.state.data)
             newdata = this.state.data.weather.map(weatherData => {
                 return(
-                    <Weather key={weatherData.id} data={weatherData}/>  
+                    <Weather key={weatherData.id} data={weatherData} temp={this.state.data.main.temp}/>  
                     )
             })
            
