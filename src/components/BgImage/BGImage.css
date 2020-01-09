@@ -1,0 +1,8 @@
+.bgImage{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+.bgImage img{
+    width: 100%;
+}

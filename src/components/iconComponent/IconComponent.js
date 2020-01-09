@@ -1,5 +1,6 @@
 import React from 'react';
 import './iconComponent.css';
+import MistNight from '../../assects/mist-night.png';
 
 function IconComponent(props){
     let iconId = props.icon;

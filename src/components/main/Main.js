@@ -2,6 +2,7 @@ import React,{ Component}from 'react';
 import Weather from '../weather-display/WeatherDisplay';
 import Header from '../header/Header';
 import './Main.css';
+import BgImage from '../BgImage/BgImage';
 
 class Main extends Component{
     constructor(){
@@ -41,7 +42,9 @@ class Main extends Component{
         }
         return(
             <div className="main-wrapper">
+                <BgImage/>
                 <Header/>
+                
                 {newdata}
                 
             </div>
